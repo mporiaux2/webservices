@@ -23,7 +23,7 @@ public class Produit {
       */
 	protected float phtva;
       /**
-       * stock en cours
+       * stock en  cours
        */
 	protected int stock;
 
