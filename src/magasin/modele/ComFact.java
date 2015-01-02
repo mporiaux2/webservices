@@ -1,5 +1,6 @@
 package magasin.modele;
 import java.util.Date;
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  * classe métier de gestion d'une commande-facture
@@ -8,7 +9,7 @@ import java.util.Date;
  * @see Comporte
  * @see Client
  */
-
+@XmlRootElement(name="comfact")
 public class ComFact {
     
     /**
@@ -95,7 +96,7 @@ public class ComFact {
  * @return identifiant du client passant la commande
  */
   
-    public int getFkClient() {
+    public int getFkclient() {
         return fkclient;
     }
 /**

@@ -1,5 +1,8 @@
 
 package magasin.modele;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  * classe métier de gestion d'un client
  * @author Michel Poriaux
@@ -7,7 +10,7 @@ package magasin.modele;
  * @see ComFact
  */
 
-
+@XmlRootElement(name="client")
 public class Client {
   /**
    * identifiant unique du client

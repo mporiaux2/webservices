@@ -1,4 +1,7 @@
 package magasin.modele;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  * classe métier de gestion d'une ligne de commande
  * @author Michel Poriaux
@@ -7,7 +10,7 @@ package magasin.modele;
  * @see Produit
  */
 
-
+@XmlRootElement(name="comporte")
 public class Comporte {
     /**
      * id automatique de la ligne de commande
